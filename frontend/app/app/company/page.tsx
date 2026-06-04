@@ -102,11 +102,11 @@ function CompanyDashboardInner() {
   return (
     <div className="dash">
       <section className="dash-hero">
-          <div>
-            <div className="eyebrow">Company dashboard</div>
-            <h1 className="dash-title">Welcome back, {companyName}</h1>
-            <p className="dash-sub">{company.description}</p>
-          </div>
+        <div>
+          <div className="eyebrow">Company dashboard</div>
+          <h1 className="dash-title">Welcome back, {companyName}</h1>
+          <p className="dash-sub">{company.description}</p>
+        </div>
         <div className="dash-stats">
           <Stat label="Bounties" value={bounties.length.toString()} />
           <Stat label="Open" value={counts.open.toString()} />
